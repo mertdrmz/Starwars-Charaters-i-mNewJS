@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+body {
+  background-image: url(/Sanat.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.container {
+  margin: 100px;
+  
+}
+
+.btn {
+  color: white;
+}
+input[type="radio"] {
+    margin-right: 5px; 
+    transform: scale(1.2); 
+    padding: 20px;
+    
+  }
+  
+  
+  input[type="radio"] + label {
+    margin-right: 10px; 
+    padding: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    color: white;
+    background-image: url(/Sanat.jpeg);
+  }
+  
+ 
+  input[type="radio"]:checked + label {
+    background-color: #007bff; 
+    color: #fff; 
+    border-color: #007bff; 
+    
+  }
+  .card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+    background-image: url(/Sanat.jpeg); 
+    color: white !important;
+    
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card h2 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+  }
+  .card-container {
+    margin-bottom: 20px; 
+  }
